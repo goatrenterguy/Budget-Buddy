@@ -1,0 +1,29 @@
+/* Login Module */
+.login-module {
+    background-color: #e2e2e2;
+	padding: 10px;
+}
+/*
+.login-module .user-wrapper,
+.login-module .pass-wrapper {
+    clear: both;
+}
+*/
+
+.login-module .user-wrapper input,
+.login-module .pass-wrapper input {
+	display: block;
+	width: 80%;
+	max-width: 140px;
+}
+
+/* Text Area */
+.text-area {
+	text-align: center;
+	margin: auto;
+	width: 90%;
+}
+
+.content-wrapper {
+	margin: 20px auto;
+}
