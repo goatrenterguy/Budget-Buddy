@@ -10,12 +10,13 @@
 
 	<!-- Bootstrap CSS -->
 	<link href="../css/global.css" rel="stylesheet" type="text/css">
+	<link href="../css/sign-up.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<div class="nav-wrapper">
 		<a class="logo" href="index.html">
-			<img src="img/BudgetBuddy.png" alt="logo" />
+			<img src="..img/BudgetBuddy.png" alt="logo" />
 		</a>
 		<ul class="primary-nav">
 			<li>
@@ -28,12 +29,29 @@
 				<a href="#">Contact Us</a>
 			</li>
 			<li>
-				<a href="../html/sign-up.html">Sign Up</a>
+				<a href="#">Sign Up</a>
 			</li>
 		</ul>
 	</div>
 	<div class="content-wrapper">
 		<!-- Body of the page in here -->
+		<div class="sign-up-wrapper">
+			Join Budget Buddy
+			<form method='post' action='login.php'>
+				<span class='error'></span>
+				<div class="user-wrapper">
+					<label>Username:<br></label>
+					<input type='text' maxlength='16' name='user' value=''>
+				</div>
+				<div class="pass-wrapper">
+					<label>Password:<br></label>
+					<input type='password' maxlength='16' name='pass' value=''>
+				</div>
+				<label></label>
+				<input class="btn" data-transition='slide' type='submit' value='Login'>
+				<a href="#" class="btn sign-up">Sign Up</a>
+			</form>
+		</div>
 	</div>
 	<div class="footer-wrapper">
 		Budget Buddy

@@ -7,6 +7,7 @@ body {
 h3 {
 	margin: 0;
 }
+
 .btn {
 	background-color: #4db994;
 	/* Green */
@@ -129,6 +130,14 @@ h3 {
 	content: "";
 	display: table;
 	clear: both;
+}
+/* Form Styling */
+form input[type=text], form input[type=password] {
+	width: 90%;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	padding: 5px;
+	color: #4e4e4e;
 }
 
 /* Mobile Styling */
