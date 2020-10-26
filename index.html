@@ -4,6 +4,7 @@
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Budget Buddy</title>
 	<link href="https://via.placeholder.com/25" rel="icon" />
 
@@ -32,29 +33,32 @@
 			</li>
 		</ul>
 	</div>
+	<div class="hero-img">
+			<img src="img/home-banner-calculator.jpg" alt="Banner image">
+		</div>
 	<div class="content-wrapper">
 		<!-- Body of the page in here -->
-		<div class="colm-wrapper">
-			<div class="one-third-colm">
+		<div class="row">
+			<div class="column left-1-4">
 				<div class="login-module">
-					<h3>Login</h3>
+					<h3>User Login</h3>
 					<form method='post' action='login.php'>
-						<label></label>
 						<span class='error'></span>
 						<div class="user-wrapper">
-							<label>Username</label>
+							<label>Username:<br></label>
 							<input type='text' maxlength='16' name='user' value=''>
 						</div>
 						<div class="pass-wrapper">
-							<label>Password</label>
+							<label>Password:<br></label>
 							<input type='password' maxlength='16' name='pass' value=''>
 						</div>
 						<label></label>
-						<input data-transition='slide' type='submit' value='Login'>
+						<input class="btn" data-transition='slide' type='submit' value='Login'>
+						<a href="#" class="btn sign-up">Sign Up</a>
 					</form>
 				</div>
 			</div>
-			<div class="two-thrids-colm">
+			<div class="column right-3-4">
 				<div class="text-area">
 					Why Budget Buddy?
 					<p>

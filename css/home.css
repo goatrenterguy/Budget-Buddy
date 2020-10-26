@@ -1,29 +1,49 @@
 /* Login Module */
 .login-module {
-    background-color: #e2e2e2;
+	background-color: #e2e2e2;
 	padding: 10px;
 }
-/*
+
 .login-module .user-wrapper,
 .login-module .pass-wrapper {
-    clear: both;
+	margin-top: 10px;
 }
-*/
 
 .login-module .user-wrapper input,
 .login-module .pass-wrapper input {
-	display: block;
-	width: 80%;
-	max-width: 140px;
+	width: 90%;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	padding: 5px;
+	color: #4e4e4e;
+}
+
+.login-module .sign-up.btn {
+	display: inline-block;
+	background-color: #89afa2;
+}
+
+.login-module .sign-up.btn:hover {
+	background-color: #fff;
+}
+
+.login-module input[type=submit] {
+	margin: 5px 0px;
 }
 
 /* Text Area */
 .text-area {
-	text-align: center;
 	margin: auto;
-	width: 90%;
+	width: 100%;
+	padding: 0px 10px
 }
 
 .content-wrapper {
 	margin: 20px auto;
+}
+
+@media screen and (max-width: 600px) {
+	.text-area {
+		margin-top: 20px;
+	}
 }
