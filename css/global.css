@@ -8,6 +8,11 @@ h3 {
 	margin: 0;
 }
 
+.content-wrapper:after {
+	display: table;
+	content: "";
+	clear:both;
+}
 .btn {
 	background-color: #4db994;
 	/* Green */
