@@ -26,13 +26,13 @@ body {
 table {
   border: 1px solid black;
   text-align: left;
-  width: 640px;
+  width: 80%;
   margin: 30px auto;
   border-radius: 3px;
   background-color: #fff;
 }
   th {
-    padding: 10px
+    padding: 10px;
   }
 
   tr:nth-child(odd) {
@@ -40,13 +40,13 @@ table {
     opacity: 0.8;
   }
   td {
-    padding : 10px 15px 
-    color : #434A54
+    padding : 10px 15px;
+    color : #434A54;
   }
 
 .amount {
-  color : #DA4453
-  text-align : right
+  color : #DA4453;
+  text-align : right;
 }
 
 .myButton {
@@ -77,15 +77,14 @@ table {
 #totalBudget {
 	font-size: 18px;	
 }
-#form-box
+#form-box {
   width: 650px
   margin: 30px auto
   padding-left: 15px
-
+}
 form {
   color: #fff
   margin: auto
-  
   select, input
     margin-bottom: 25px
     color: $dark-gray
